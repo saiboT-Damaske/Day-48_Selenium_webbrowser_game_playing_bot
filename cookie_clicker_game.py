@@ -57,7 +57,7 @@ while True:
 
     if time.time() > five_min:
         cookie_per_s = driver.find_element(By.ID, "cps")
-        print(cookie_per_s)
+        print(cookie_per_s.text)
         break
 
 
