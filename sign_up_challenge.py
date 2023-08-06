@@ -19,4 +19,3 @@ first_name.send_keys("yoyo@gmail.com", selenium.webdriver.common.keys.Keys.ENTER
 # # or this in the end
 # button = driver.find_element(By.CSS_SELECTOR, "form button")
 # button.click()
-
